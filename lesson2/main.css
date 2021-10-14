@@ -1,0 +1,48 @@
+body {
+    background-color: #f8d5b9;
+}
+
+h1, h2 {
+    color:#3e2121;
+    text-align: center;
+}
+
+h1   {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p{
+    text-align: justify;
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    border: 8px solid #3e2121;
+}
+
+a {
+    text-decoration: none;
+    color: saddlebrown;
+}
+
+a:hover {
+    color: #3e2121;
+}
+
+.colored {
+    background: moccasin;
+    color: saddlebrown;
+    font-size: 25px;
+    border: 2px solid #3e2121;
+}
+
