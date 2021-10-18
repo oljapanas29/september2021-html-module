@@ -1,0 +1,30 @@
+body {
+    padding: 24px;
+    background: rgba(248, 193, 139, 0.96);
+}
+
+h1, h2 {
+    text-align: center;
+    text-decoration: underline ;
+    color: #3e2121;
+}
+
+.wrapper {
+    height: 250px;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    background : rgba(250, 199, 147, 0.96);
+    box-shadow: 3px 3px 50px #7a2c2c ;
+    font-size: 22px;
+    border-left: 8px solid #3e2121;
+    border-bottom: 8px solid #3e2121;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.book-image {
+    width: 300px;
+    margin-right: 16px;
+}
