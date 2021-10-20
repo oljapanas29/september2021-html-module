@@ -1,0 +1,31 @@
+.wrapper{
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    font-size: 27px;
+}
+.a,.b,.c{
+    height: 250px;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.a_item{
+    width: 50%;
+    background: rebeccapurple;
+}
+.b{
+    background: rebeccapurple;
+}
+.c_item{
+    flex: 1;
+    background: #181c73;
+}
