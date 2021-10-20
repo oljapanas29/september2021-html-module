@@ -1,0 +1,32 @@
+.main{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.header{
+    height: 150px;
+    background: blue;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    column-gap: 10px;
+}
+.image{
+    flex: 1;
+    height: 200px;
+    background: aqua;
+    font-size: 20px;
+}
+.footer{
+    height: 200px;
+    background: blue;
+}

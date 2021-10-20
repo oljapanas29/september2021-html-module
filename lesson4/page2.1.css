@@ -1,0 +1,41 @@
+#header,#menu,#footer, .post {
+    border: 2px solid black;
+}
+
+.conteiner, .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.conteiner{
+    width: 400px;
+}
+
+#header{
+    height: 100px;
+    background: aqua;
+}
+
+.main {
+    display: flex;
+    column-gap: 8px;
+}
+#menu{
+    height: 300px;
+    width: 100px;
+    background: #f8d5b9;
+}
+.content{
+    flex: auto;
+}
+
+.post {
+    flex: 1;
+    background: blueviolet;
+}
+
+#footer{
+    height: 100px;
+    background: blue;
+}
