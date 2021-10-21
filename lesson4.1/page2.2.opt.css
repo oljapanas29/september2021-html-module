@@ -1,0 +1,31 @@
+.d-flex{
+    display: flex;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.h-200{
+    height: 200px;
+}
+.bg-blue{
+    background: blue;
+}
+.main{
+    width: 600px;
+    flex-direction: column;
+    row-gap: 10px;
+    color: aliceblue;
+    font-size: 24px;
+}
+.header{
+    height: 150px;
+}
+.content{
+    column-gap: 10px;
+}
+.image{
+    flex: 1;
+    background: aqua;
+    font-size: 20px;
+}
