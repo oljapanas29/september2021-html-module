@@ -1,0 +1,40 @@
+@media screen and (max-width: 400px) {
+    .nav,
+    .header__contact,
+    .header button {
+        display: none;
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+    }
+
+    .banner {
+        text-align: center;
+        margin: 200px 0;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .banner p::before,
+    .banner p::after {
+        display: none;
+    }
+
+    .card__row {
+        flex-direction: column;
+        margin-right: 12px;
+    }
+}
