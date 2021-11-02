@@ -1,0 +1,27 @@
+@media screen and (max-width:375px ){
+    .first-screen-left h1{
+        font-size: 34px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.4px;
+    }
+    .first-screen-left .first-screen-text{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.004em;
+        color: #020303;
+    }
+    .first-screen-left{
+        margin-top: 56px;
+    }
+    .second-screen-right{
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: #FBFDFF;
+        padding: 20px;
+    }
+
+}

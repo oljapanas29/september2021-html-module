@@ -1,0 +1,78 @@
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header{
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+.navbar-light .navbar-nav .nav-link{
+    border: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    mix-blend-mode: multiply;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.first-screen-left{
+    margin-top: 100px;
+}
+.first-screen-left h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+.first-screen-left .first-screen-text{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 120px;
+    position: relative;
+}
+.first-screen-left .first-screen-text::before,
+.first-screen-left .first-screen-text::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 227px;
+    height: 7px;
+    background: #EDEFF3;
+}
+.first-screen-left .first-screen-text::before{
+    top: -55px;
+}
+.first-screen-left .first-screen-text::after{
+    bottom: -55px;
+}
+.first-screen-text-two{
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+.second-screen-right {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    padding: 187px;
+}
+.second-screen-text{
+    font-size: 17px;
+    line-height: 32px;
+}
+
+
+
