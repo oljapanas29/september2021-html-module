@@ -1,0 +1,283 @@
+h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 12px;
+}
+
+.font-small {
+    font-size: 12px;
+}
+
+.font-normal {
+    font-size: 14px;
+}
+
+.color-dark{
+    color: #000000;
+}
+
+.color-gold {
+    color: #FFB800;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.color-grey {
+    color: #868DAC;
+}
+
+.price-gold {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+    margin-bottom: 0;
+}
+
+.price-discount {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+    margin-bottom: 0;
+}
+
+.header-dark {
+    background: #0F2438;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header-dark, .nav-link, a, .header-dark:hover, .nav-link:hover, a:hover {
+    color: #FFFFFF;
+}
+
+.header-icon {
+    font-size: 24px;
+    margin: -10px 8px 0 0;
+    text-align: start;
+}
+
+.header-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0F2438;
+}
+
+.message {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #E1EFD0;
+    padding: 2px;
+}
+
+.message__icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+}
+
+.message__text {
+    font-size: 12px;
+    color: #000000;
+}
+
+.header-phone {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+}
+
+.header-button-text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #0F2438;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header-button-text i {
+    font-size: 26px;
+    margin-right: 4px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    opacity: 1;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.custom-item {
+    height: 388px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+
+.carousel-indicators .active + button {
+    height: 16px;
+    background: #0D1C2B;
+}
+
+.banner-price {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+
+.card {
+    height: 192px;
+    margin: 0 0 4px 4px;
+    padding: 16px;
+    background: #F4F5FA;
+    border-radius: 4px;
+    border: none;
+}
+
+.banner-article {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+
+.product-button-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.product__price{
+    font-size: 10px;
+    line-height: 15px;
+    /*text-decoration-line: underline;*/
+    color: #005BB9;
+}
+
+.product__actions__button{
+    font-size: 16px;
+    line-height: 16px;
+    color: #005BB9;
+    background: #FFFFFF;
+    border: none;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+h6{
+    width: 106px;
+    font-size: 16px;
+    line-height: 19px;
+    background: #0C1A2A;
+    border-radius: 4px;
+}
+
+.new-link,
+.new-link:hover {
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+
+.new-info{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242424;
+    margin-top: 16px;
+}
+
+.custom-item--small {
+    width: 33%;
+    border: 1px solid #E1E5F8;
+    border-radius: 6px
+}
+
+.custom-item__content {
+    padding: 30px 0 30px 30px;
+}
+
+.carousel--small {
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.custom-controls {
+    width: 100%;
+    position: absolute;
+    top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-control {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #E1E5F8;
+}
+
+.custom-control--prev {
+    margin-left: -15px;
+}
+
+.custom-control--next {
+    margin-right: -15px;
+}
+
+footer {
+    background: #0C1A2A;
+    color: #FFFFFF;
+}
+
+.input-group input {
+    background: none;
+    border: 1px solid #203246;
+}
+
+.icons-group {
+    width: 100%;
+    margin-top: 12px;
+    font-size: 14px;
+    text-align: end;
+}
+
+.icons-group i {
+    margin-left: 20px;
+}

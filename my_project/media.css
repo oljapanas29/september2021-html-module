@@ -1,0 +1,144 @@
+@media screen and (max-width:769px) {
+    .header-text {
+        font-size: 12px;
+    }
+
+    .header-icon {
+        font-size: 16px;
+        margin: 0 8px 0 0;
+    }
+
+    .message {
+        width: 80%;
+        height: 20px;
+    }
+
+    .message__icon {
+        height: 20px;
+    }
+
+    img[alt=Logo] {
+        width: 200px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .header-button-text i {
+        font-size: 14px;
+    }
+
+    img[alt="product panner"] {
+       width: 180px;
+       height: 140px;
+       justify-content: left;
+    }
+
+    .banner-caption {
+        font-size: 26px;
+    }
+
+    .banner-price{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 20px;
+        color: #005BB9;
+    }
+
+    .card {
+        padding: 8px;
+    }
+
+    .content img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .content h4 {
+        font-size: 12px;
+    }
+
+    .content .price-gold {
+        font-size: 18px;
+    }
+
+    .carousel--small {
+        column-gap: 10px;
+        overflow: hidden;
+    }
+
+    .custom-item--small {
+        display: block;
+        width: 40%;
+    }
+
+    .custom-item__content {
+        padding: 15px 0 15px 15px;
+    }
+
+    .custom-item__content img {
+        height: 150px;
+    }
+
+    .custom-item__content h5 {
+        font-size: 18px;
+    }
+
+    .custom-item__content p {
+        font-size: 12px;
+    }
+
+    img[alt="Carousel picture"] {
+        width: 80px;
+        height: 120px;
+    }
+
+    .custom-controls {
+        display: none;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #navbarNavDropdown {
+        display: none !important;
+    }
+
+    .logo-row div:nth-child(2) {
+        display: none;
+    }
+
+    img[alt=Logo] {
+        width: 120px;
+        height: 40px;
+        object-fit: cover;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    .message__text {
+        font-size: 10px;
+    }
+
+    .search ~ div {
+        display: none !important;
+    }
+
+    .content img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .content .price-gold,
+    .content .price-discount {
+        font-size: 12px !important;
+    }
+
+    .card {
+        height: 174px;
+    }
+
+    .custom-item {
+        height: 250px;
+    }
+}
